@@ -1,0 +1,32 @@
+Setup for Python:
+Install Python (Setup instructions)
+
+Install Python packages
+
+pip3 install -r training/requirements.txt
+pip3 install -r api/requirements.txt
+Install Tensorflow Serving
+
+
+Setup for ReactJS
+1) Install Nodejs 
+2) Install NPM 
+3) Install dependencies
+	cd frontend
+	npm install --from-lock-json
+	npm audit fix
+
+Running the Model in API
+1) Open api folder
+2) Open main.py file in pycharm
+3) Run main.py
+4) Open the local host
+5) add /docs to the path of the local host
+6) Upload the image in predict function from the test_classes folder
+
+Running Web Application using ReactJs
+1) Open cmd prompt
+2) Change directory to ../Code/tomato-disease/frontend
+3) npm run start
+4) Drag and Drop images from test_classes to predict
+
